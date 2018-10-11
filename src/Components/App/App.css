@@ -1,0 +1,26 @@
+html, body, #root, .postcard{
+	height: 100%;
+	width: 100%;
+	overflow: hidden;
+}
+
+
+.internal{
+	position: absolute;
+}
+
+p{
+	display: flex;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size: 84px;
+	letter-spacing: -4px;
+	word-spacing: 3.6px;
+	color: #F34;
+	font-weight: normal;
+	text-decoration: none solid rgb(68, 68, 68);
+	font-style: italic;
+	font-variant: normal;
+	text-transform: capitalize;
+	position: fixed;
+	z-index: 10;
+}
